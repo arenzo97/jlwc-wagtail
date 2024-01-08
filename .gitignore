@@ -1,0 +1,43 @@
+website/media/*
+website/node_modules/*
+package-lock.json
+
+# Virtual Environments
+/.venv/
+/venv/
+/env/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# IDE/Editor specific files
+/.vscode/
+/.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled source
+__pycache__/
+*.pyc
+
+# Log files
+/logs/
+*.log
+
+# Database
+/db.sqlite3
+
+# Media and static files
+/media/
+/static/
+
+# Wagtail-specific cache/temporary files
+.wagtail/
+
+# Deployment/Production configuration
+/deploy/
+/settings/
+
+# Environment variables
+.env
